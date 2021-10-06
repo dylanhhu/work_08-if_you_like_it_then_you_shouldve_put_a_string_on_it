@@ -3,12 +3,12 @@
 
 int mystrlen(char *s);
 
-char * mystrncpy(char *dest, char *source, int n);
+char * mystrcpy(char *dest, char *source);
 
 char * mystrcat(char *dest, char *source);
 
-int mystrcomp(char *s1, char *s2);
+int mystrcmp(char *s1, char *s2);
 
-char * mystrchar(char *s, char c);
+char * mystrchr(char *s, char c);
 
 #endif
